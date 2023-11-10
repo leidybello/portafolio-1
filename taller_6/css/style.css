@@ -1,0 +1,28 @@
+form {
+
+    width: 80%;
+    margin: 5%;
+    padding: 10px;
+    background-color: #fff; 
+    border-radius: 10px; 
+    box-shadow: teal; 
+}
+
+
+body {
+    background-color: #f0f0f0;
+}
+h1 {
+    text-align: center;
+    text-size-adjust: 2px;
+
+
+}
+h3 {
+    text-align: center;
+    text-size-adjust: 1px;
+
+}
+
+
+
