@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style6.css">
+    <title>Consulta de Usuarios</title>
+</head>
+<body>
+    <h1>Consulta de Usuarios</h1>
+
+    <!-- Formulario para búsqueda general -->
+    <form method="post" action="consulta_resultados.php">
+        <input type="text" placeholder="Buscar" name="busqueda_general" id="busqueda_general" oninput="submitForm()">
+        <button type="submit">Buscar</button>
+    </form>
+    
+    <!-- Formulario para búsqueda por columnas -->
+    <form method="post" action="consulta_resultados.php">
+        <input type="text" placeholder="Buscar por nombre" name="nombre" id="busqueda-nombre" oninput="submitForm()">
+        <input type="text" placeholder="Buscar por apellido" name="apellido" id="busqueda-apellido" oninput="submitForm()">
+        <input type="text" placeholder="Buscar por cedula" name="cedula" id="busqueda-cedula" oninput="submitForm()">
+        <button type="submit">Buscar</button>
+    </form>
+
+    <div class="result-container">
+        <!-- El contenido generado por consulta_resultados.php se mostrará aquí -->
+        <?php include("consulta_resultados.php"); ?>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

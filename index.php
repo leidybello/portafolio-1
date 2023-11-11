@@ -39,17 +39,18 @@ require 'database.php'
         <section class="home" id="home">
             <div class="home-content">
                 <div class="introduccion">
-                <h3>Hola mi nombre es</h3>
-                <h1>Leidy Bello</h1>
-                <h3>Soy <span>Desarrolladora Full Stack</span></h3>
-                <p>Soy autodidacta, comprometida y altamente adaptable. Poseo una sólida experiencia en trabajar en
-                    equipo y gestionar situaciones bajo presión. Mi carrera profesional se ha caracterizado por mi
-                    capacidad para identificar necesidades y analizar las posibles soluciones, aplicando los
-                    conocimientos adquiridos en el entorno laboral.</p>
-                <br>
-                <p>Pienso que no es posible tener un conocimiento completo de algo, para mi es importante estar en
-                    constante aprendizaje, busco aprender lo positivo de las personas con las que puedo compartir en el
-                    dia a dia.</p>
+                    <h3>Hola mi nombre es</h3>
+                    <h1>Leidy Bello</h1>
+                    <h3>Soy <span>Desarrolladora Full Stack</span></h3>
+                    <p>La resiliencia es parte de mi vida, para mi no existen los obstaculos, sino metas por alcanzar. Creo firmemente que mi limite soy yo, es por esto que analizo cada dificultad como una oportunidad, para ser mejor cada dia.
+                        Mis mayores motivaciones en mi vida es primeramente DIOS y seguido mis hijos, para quienes busco ser ejemplo y mi esposo quien es mi compañero de metas, con quien compartimos el gusto por este conocimiento.
+
+                        Me gusta practicar deportes natacion y el futball, cuando quiero salir de la rutina me encanta andar en mi moto, por lugares naturalez.
+                        .</p>
+                    <br>
+                    <p>Pienso que no es posible tener un conocimiento completo de algo, para mi es importante estar en
+                        constante aprendizaje, busco aprender lo positivo de las personas con las que puedo compartir en el
+                        dia a dia.</p>
                 </div>
                 <div class="social-media">
                     <a href="#"><i class='bx bxl-facebook-circle'></i></a>
@@ -73,10 +74,11 @@ require 'database.php'
             <div class="about-contenido">
                 <h2 class="heading">Acerca de <span>Mi</span></h2><br>
                 <h3>Analista de Requerimientos</h3>
-                <p>La resiliencia es una fortaleza, enfrento los desafíos con una mentalidad positiva y la determinación
-                    de superar obstáculos, me caracterizo por ser una persona propositiva, no me agrada quedar en la
-                    dificultad por lo que siempre busco opciones que siempre analizo los pros y los contras de una
-                    desicion.</p>
+                <p>Soy autodidacta, comprometida y altamente adaptable. Poseo una sólida experiencia en trabajar en
+                    equipo y gestionar situaciones bajo presión. Mi carrera profesional se ha caracterizado por mi
+                    capacidad para identificar necesidades y analizar las posibles soluciones, aplicando los
+                    conocimientos adquiridos en el entorno laboral.
+                </p>
                 <a href="#" class="btn">Inicio</a>
             </div>
         </section>
@@ -122,7 +124,7 @@ require 'database.php'
                     <p></p>
                     <a href="#" class="btn">Leer Mas</a>
                 </div>
-              
+
             </div>
         </section>
         <!--CUARTO MODULO"-->
@@ -131,22 +133,28 @@ require 'database.php'
             <h2 class="heading">Portafolio & <span>Proyectos</span></h2>
 
             <div class="skills-container">
-                
+
                 <div class="skills-box">
                     <div class="skills-layer">
-                    <h3>Habilidades Tecnicas</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium autem perferendis natus
-                        sunt corrupti obcaecati similique maiores nobis, consequuntur inventore?</p>
-                    <a href="#" class="btn">Leer Mas</a>
-                </div>
+                        <h3>Habilidades Tecnicas</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium autem perferendis natus
+                            sunt corrupti obcaecati similique maiores nobis, consequuntur inventore?</p>
+                        <a href="#" class="btn">Leer Mas</a>
+                    </div>
 
                 </div>
                 <!--<div class="skills-container">-->
                 <div class="skills-box">
-                        <div class="skills-layer">
-                        <h3>Habilidades Tecnicas</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium autem perferendis natus
-                            sunt corrupti obcaecati similique maiores nobis, consequuntur inventore?</p>
+                    <div class="skills-layer">
+                        <h3>Taller 5</h3>
+                        <ul>
+                            <li><a href="../portafolio/taller_5/taller 4-8/index.html" target="_blank" class="active">Ejercicios del 4 al 8</a></li>
+                            <li><a href="../portafolio/taller_5/punto9/punto9.html" target="_blank" class="active">Ejercicio 9</a></li>
+                            <li><a href="../portafolio/taller_5/punto10/punto10.html" target="_blank" class="active">Ejercicio 10</a></li>
+                            <li><a href="../portafolio/taller_5/punto10-2/punto10_2.html" target="_blank" class="active">Ejercicio 10-2</a></li>
+                            <li><a href="../portafolio/taller_5/punto11/punto11.html" target="_blank" class="active">Ejercicio 11</a></li>
+                            <li><a href="../portafolio/taller_5/punto12/punto12.html" target="_blank" class="active">Ejercicio 12</a></li>
+                        </ul>
                         <a href="#" class="btn">Leer Mas</a>
                     </div>
                 </div>
@@ -160,6 +168,7 @@ require 'database.php'
                             <li><a href="../portafolio/taller_6/ejercicio3.php" target="_blank" class="active">Ejercicio 3</a></li>
                             <li><a href="../portafolio/taller_6/ejercicio4.php" target="_blank" class="active">Ejercicio 4</a></li>
                             <li><a href="../portafolio/taller_6/ejercicio6.php" target="_blank" class="active">Ejercicio 5 y 6</a></li>
+                            <li><a href="../portafolio/taller_6/index.php" target="_blank" class="active">ultimo</a></li>
                         </ul>
                         <a href="#" class="btn">Leer Mas</a>
                     </div>
@@ -168,21 +177,22 @@ require 'database.php'
             <!--<div class="skills-container">-->
             <!--MODULO QUINTO "CONTACTO"-->
             <section class="contacto" id="contacto">
-    <h2 class="heading">Contactame </h2><br>
-    <form action="guardar_datos.php" method="post"> <!-- Corregido el atributo action -->
-        <div class="input-box">
-            <input type="text" name="nombre" placeholder="Nombre Completo">
-            <input type="email" name="direccionCorreo" placeholder="Direccion de Correo">
-        </div>
-        <div class="input-box">
-            <input type="number" name="numeroCelular" placeholder="Numero de Celular">
-            <input type="text" name="asuntoCorreo" placeholder="Asunto Correo">
-        </div>
-        <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Ingrese su Mensaje"></textarea>
-        <input type="submit" value="Enviar Mensaje" class="btn">
-    </form>
-</section>
-           
+                <h2 class="heading">Contactame </h2><br>
+                <form action="guardar_datos.php" method="post"> <!-- Corregido el atributo action -->
+                    <div class="input-box">
+                        <input type="text" name="nombre" placeholder="Nombre Completo">
+                        <input type="email" name="direccionCorreo" placeholder="Direccion de Correo">
+                    </div>
+                    <div class="input-box">
+                        <input type="number" name="numeroCelular" placeholder="Numero de Celular">
+                        <input type="text" name="asuntoCorreo" placeholder="Asunto Correo">
+                    </div>
+                    <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Ingrese su Mensaje"></textarea>
+                    <input type="submit" value="Enviar Mensaje" class="btn">
+                </form>
+            </section>
+
     </body>
+
 
 </html>
