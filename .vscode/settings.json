@@ -1,4 +1,5 @@
 {
     "editor.autoClosingQuotes": "languageDefined",
-    "workbench.editor.languageDetection": false
+    "workbench.editor.languageDetection": false,
+    "liveServer.settings.port": 5501
 }

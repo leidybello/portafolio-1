@@ -279,15 +279,15 @@ span {
 } 
 .skills-container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 2.5rem;
-    padding: 15px;
-    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10rem;
+    padding: 30px;
     justify-content: center;
-    background-color: var(--second-bg-color); */
+    background-color: var(--second-bg-color); 
    
 } 
-    .skills-container .skills-box {
+
+.skills-container .skills-box {
     border-radius: 2rem;
     box-shadow: 0 0 1.2rem var(--bg-color);
     border: .2rem solid var(--bg-color);
@@ -301,17 +301,38 @@ span {
     border-color: var(--bg-color);
     transform: scale(1.05);
 }
-.skills-box p{
-    padding: 1rem 1rem;
-    text-align: center;
-    font-size: 1.7rem;
-    margin: 1rem 1rem 3rem;
+.skills-box ul li{
+    font-size: 10px;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    padding: 5px;  
 }
 .skills-layer h3{
     font-size: 2rem;
-    padding: 40px;
+    padding: 20px;
     margin-left: 2px;
     color: var(--main-color);
+}
+
+.skills-layer .a{
+    font-size: 40px;
+    
+}
+
+.btn2 {
+    display:flexbox;
+    padding: 1rem 1rem;
+    background: var(--main-color);
+    border-radius: 3rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    font-size: 1rem;
+    color: var(--second-bg-color);
+    gap: 20px;
+    /* font-weight: 200px; */
+    transition: .5s ease;
+    
+
 }
 /*Quinto modulo "Contacto"*/
 #contacto h2{
